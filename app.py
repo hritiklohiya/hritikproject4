@@ -36,5 +36,6 @@ def predict():
     else:
       print("Person doesn't Survived")
 
-app.run()
+if __name__=="__main__":
+  app.run(debug=True)
 
